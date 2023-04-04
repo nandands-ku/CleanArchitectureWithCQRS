@@ -1,0 +1,9 @@
+.vs/
+DiziCashier.API/bin/
+DiziCashier.API/obj/
+DiziCashier.Application/bin/
+DiziCashier.Application/obj/
+DiziCashier.Core/bin/
+DiziCashier.Core/obj/
+DiziCashier.Infrastructure/bin/
+DiziCashier.Infrastructure/obj/
