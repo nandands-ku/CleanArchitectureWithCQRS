@@ -3,6 +3,7 @@ using DiziCashier.Core.Query;
 using DiziCashier.Infrastructure.Data;
 using DiziCashier.Infrastructure.Models;
 using DiziCashier.Infrastructure.Repositories.Query.Base;
+using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 
@@ -10,7 +11,8 @@ namespace DiziCashier.Infrastructure.Repositories.Query
 {
     public class ItemCategoryQueryRepository : QueryRepository<ItemCategory>, IItemCategoryQueryRepository
     {
-        public ItemCategoryQueryRepository(MongoDBContext context) : base(context)
+
+        public ItemCategoryQueryRepository(IOptions<DiziCashierMongoDatabaseSettings> settings) : base(settings)
         {
         }
 

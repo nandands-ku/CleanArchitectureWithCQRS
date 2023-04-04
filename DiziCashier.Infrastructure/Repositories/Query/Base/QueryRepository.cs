@@ -8,9 +8,9 @@ namespace DiziCashier.Infrastructure.Repositories.Query.Base
     public class QueryRepository<T> : IQueryRepository<T> where T : class
     {
         protected readonly MongoDBContext _context;
-        public QueryRepository(MongoDBContext context)
+        public QueryRepository(IOptions<DiziCashierMongoDatabaseSettings> settings)
         {
-            _context = context;
+            _context = new MongoDBContext(settings);
         }
     }
 }
