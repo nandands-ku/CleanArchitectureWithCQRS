@@ -23,6 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DiziCashier.Application\DiziCashier.Application.csproj" />
     <ProjectReference Include="..\DiziCashier.Core\DiziCashier.Core.csproj" />
   </ItemGroup>
 
