@@ -12,8 +12,7 @@ namespace DiziCashier.Infrastructure.Data
     {
         public DiziDBContext(DbContextOptions<DiziDBContext> options) : base(options)
         {
-
-        }
+        }        
         public DbSet<ItemCategory> ItemCategories { get; set; }
     }
 }

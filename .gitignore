@@ -7,3 +7,5 @@ DiziCashier.Core/bin/
 DiziCashier.Core/obj/
 DiziCashier.Infrastructure/bin/
 DiziCashier.Infrastructure/obj/
+/DiziCashier.Application.UnitTest/bin/Debug/net7.0
+/DiziCashier.Application.UnitTest/obj
